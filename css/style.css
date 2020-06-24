@@ -247,6 +247,10 @@ body {
     padding-left: 15px;
 }
 
+.colmenu ul li:hover {
+    cursor: pointer;
+}
+
 .colmenu ul li:not(.activemenu) {
     border-left: 2px solid #dfe2e9;
     font-weight: 400;
@@ -256,4 +260,46 @@ body {
 .activemenu {
     border-left: 2px solid #006aff;
     font-weight: 500;
+}
+
+@media screen and (max-width: 991px) {
+    .collassa {
+        display: none;
+    }
+
+    .col-title {
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .card-signup {
+        margin: 0 auto;
+    }
+
+    .card-small {
+        text-align: center;
+    }
+
+    .colmenu ul {
+        padding: 0 0 20px 0;
+    }
+    .colmenu ul li {
+        display: inline-block;
+        padding: 10px;
+        margin: 0 -3px 30px -3px;
+    }
+
+    .colmenu ul li:not(.activemenu) {
+        border-bottom: 2px solid #dfe2e9;
+        border-left: 0px;
+        font-weight: 400;
+        color: rgba(3, 27, 78, 0.6);
+    }
+
+    .activemenu {
+        border-bottom: 2px solid #006aff;
+        border-left: 0px;
+        font-weight: 500;
+    }
 }
