@@ -165,3 +165,31 @@ body {
     margin-top: 10px;
     font-weight: 300;
 }
+
+/* stilizzazione business */
+
+.business-cont {
+    background-color: #F3F5F9;
+    color: white;
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+
+.business-cont p {
+    color: #5b6987;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.link-blue {
+    font-size: 15px;
+    color: #006aff;
+    line-height: 60px;
+}
+
+.link-blue:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
