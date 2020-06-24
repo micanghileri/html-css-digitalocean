@@ -29,6 +29,11 @@ body {
     font-weight: 300;
 }
 
+.link-blue {
+    font-size: 15px;
+    color: #006aff;
+}
+
 /* stilizzazione navbar */
 
 .nav-cont {
@@ -198,13 +203,16 @@ body {
 
 /* stilizzazione business */
 
-.business-cont {
-    background-color: #F3F5F9;
+.contcont{
     text-align: center;
     padding: 60px 0 60px 0;
 }
 
-.business-cont p {
+.business {
+    background-color: #F3F5F9;
+}
+
+.business p {
     color: #5b6987;
     text-transform: uppercase;
     font-weight: 500;
@@ -212,9 +220,7 @@ body {
     padding-bottom: 15px;
 }
 
-.link-blue {
-    font-size: 15px;
-    color: #006aff;
+.bluesolution {
     line-height: 60px;
 }
 
@@ -224,11 +230,6 @@ body {
 }
 
 /* stilizzazione deploy */
-
-.deploy-cont {
-    text-align: center;
-    padding: 60px 0 60px 0;
-}
 
 .card-small {
     text-align: left;
@@ -260,6 +261,48 @@ body {
 .activemenu {
     border-left: 2px solid #006aff;
     font-weight: 500;
+}
+
+/* stilizzazione designed */
+
+.developer {
+    background-color: #F3F5F9;
+}
+
+.rowdev {
+    position: relative;
+}
+
+.colimmagine img {
+    width: 100%;
+}
+
+.colfreccia i {
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    transform: translateY(-50%);
+}
+
+.colfreccia i:hover {
+    cursor: pointer;
+}
+
+.freccialeft {
+    color: #5b6987;
+}
+
+.colpallsub {
+    margin-top: 20px;
+}
+
+.colpallini i {
+    font-size: 10px;
+    color: #006aff;
+}
+
+.colpallini i:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 991px) {
