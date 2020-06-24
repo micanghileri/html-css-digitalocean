@@ -5,6 +5,21 @@ body {
 
 
 /* stilizzazione navbar */
+
+.nav-container {
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 2px;
+    position: absolute;
+    top: 10px;
+}
+
+.navbar-brand img {
+    width: 130px;
+}
+
 .navbar-default .navbar-nav>li>a>i {
     color: #031b4e;
     font-size: 12px;
@@ -18,6 +33,8 @@ body {
 
 .nav li a:hover {
     color: #006aff;
+    background-color: inherit;
+    box-shadow: white;
 }
 
 .navbar-right button {
@@ -41,10 +58,16 @@ body {
 /* stilizzazione jumbotron */
 .jumbo-cont {
     background-color: #0069ff;
-    background-image:url(/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+    background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
     color: white;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbo-cont-small {
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .jumbo-cont h1 {
@@ -52,27 +75,34 @@ body {
     font-weight: bolder;
 }
 
-.jumbo-cont p {
+.mast-sub {
     font-size: 25px;
     font-weight: lighter;
     padding-top: 15px;
 }
 
+.col-card {
+    text-align: center;
+}
+
+.col-title {
+    padding-top: 30px;
+}
+
 .card-signup {
     background-color: #ffffff;
-    width: 350px;
+    width: 340px;
     border-radius: 5px;
     text-align: center;
     margin-right: 50px;
     margin-left: 50px;
-
 }
 
 .card-title {
     background-color: #F3F5F9;
     color: #031b4e;
     font-weight: 500;
-    line-height: 70px;
+    line-height: 55px;
     font-size: 18px;
     border-radius: 5px 5px 0 0;
 }
@@ -104,4 +134,34 @@ body {
     background-color: #006aff;
     border-radius: 5px;
     border: 1px solid #006aff;
+}
+
+.btn-card {
+    margin: 20px 0 20px 0;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 500;
+    background-color: inherit;
+    color: #006aff;
+    border-radius: 5px;
+    border: 1px solid #006aff;
+}
+
+.btn-sx {
+    width: 240px;
+    margin-right: 5px;
+}
+
+.btn-dx {
+    width: 45px;
+}
+
+.btn-card:hover {
+    border: 1px solid #000000;
+}
+
+.subtitle-card {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 300;
 }

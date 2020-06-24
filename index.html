@@ -13,10 +13,10 @@
     <body>
         <!-- header -->
         <header class="container-fluid nav-cont">
-            <div class="container">
+            <div class="container nav-container">
                 <nav class="navbar vc_navbar">
                     <div class="navbar-header">
-                      <a class="navbar-brand" href="#"><img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo Digital Ocean" height="20"></a>
+                      <a class="navbar-brand" href="#"><img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo Digital Ocean"></a>
                     </div>
                     <div class="collapse navbar-collapse vc_navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
@@ -48,12 +48,12 @@
         <!-- sezione jumbotron -->
         <section>
             <div class="container-fluid jumbo-cont">
-                <div class="container">
-                    <div class="col-md-7 col-xs-12">
+                <div class="container jumbo-cont-small">
+                    <div class="col-md-7 col-xs-12 col-title">
                         <h1>Welcome to the developer cloud</h1>
-                        <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
+                        <p class="mast-sub">We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
                     </div>
-                    <div class="col-md-5 col-xs-12">
+                    <div class="col-md-5 col-xs-12 col-card">
                         <div class="card-signup">
                             <div class="card-title">
                                 Deploy in seconds
@@ -63,10 +63,15 @@
                                     <input type="text" name="name" placeholder="First Name">
                                     <input type="email" name="email" placeholder="Email Address">
                                     <input type="password" name="password" placeholder="Password">
-                                    <button type="button" name="btn-card">Sign up with email</button>
+                                    <button type="button">Sign up with email</button>
                                 </form>
                             </div>
+                            <div class="bottoni-card">
+                                <button type="button" class="btn-card btn-sx"><i class="fab fa-google"></i>&nbsp;Sign up with Google</button>
+                                <button type="button" class="btn-card btn-dx"><i class="fab fa-github"></i></button>
+                            </div>
                         </div>
+                        <p class="subtitle-card">By signing up you agree to the Terms of Service.</p>
                     </div>
                 </div>
             </div>
