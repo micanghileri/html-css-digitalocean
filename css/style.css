@@ -101,7 +101,7 @@ body {
 }
 
 .jumbo-cont-small {
-    margin-top: 130px;
+    margin-top: 200px;
     margin-bottom: 130px;
 }
 
@@ -303,6 +303,24 @@ body {
 
 .colpallini i:hover {
     cursor: pointer;
+}
+
+/* stilizzazione world */
+
+.world {
+    background-color: #031b4e;
+    background-image: url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bianco {
+    color: #ffffff;
+}
+
+.evid-blu {
+    color: #006aff;
 }
 
 @media screen and (max-width: 991px) {
