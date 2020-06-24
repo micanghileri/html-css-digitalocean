@@ -323,6 +323,29 @@ body {
     color: #006aff;
 }
 
+/* stilizzazione development */
+
+.development {
+    background-color: #F3F5F9;
+}
+
+.colfreccia-due i {
+    font-size: 20px;
+    position: absolute;
+    top: 130px;
+    transform: translateY(-50%);
+}
+
+.colfreccia-due i:hover {
+    cursor: pointer;
+}
+
+.pallini {
+    margin-top: 20px;
+}
+
+/* visualizzazione cellulare */
+
 @media screen and (max-width: 991px) {
     .collassa {
         display: none;
