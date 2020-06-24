@@ -1,0 +1,107 @@
+/* stilizzazione generale */
+body {
+    color: #031b4e;
+}
+
+
+/* stilizzazione navbar */
+.navbar-default .navbar-nav>li>a>i {
+    color: #031b4e;
+    font-size: 12px;
+}
+
+.nav li a {
+    color: #031b4e;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nav li a:hover {
+    color: #006aff;
+}
+
+.navbar-right button {
+    border: 1px solid #006aff;
+    color: #006aff;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: inherit;
+}
+
+.navbar-right button:hover {
+    background-color: #006aff;
+    color: #ffffff;
+}
+
+.nav-cont {
+    border-top: 1px solid lightgrey;
+}
+
+/* stilizzazione jumbotron */
+.jumbo-cont {
+    background-color: #0069ff;
+    background-image:url(/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.jumbo-cont h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.jumbo-cont p {
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+.card-signup {
+    background-color: #ffffff;
+    width: 350px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.card-title {
+    background-color: #F3F5F9;
+    color: #031b4e;
+    font-weight: 500;
+    line-height: 70px;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+}
+
+.registrazione {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.registrazione input {
+    width: 290px;
+    line-height: 40px;
+    margin: 4px;
+    border: 1px solid #E8E8E8;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.registrazione button {
+    width: 290px;
+    font-size: 15px;
+    padding: 10px 0;
+    margin: 4px;
+    font-weight: 500;
+    background-color: #006aff;
+    border-radius: 5px;
+    border: 1px solid #006aff;
+}
