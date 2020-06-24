@@ -3,8 +3,40 @@ body {
     color: #031b4e;
 }
 
+.contenititle {
+    color: #031b4e;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.contenisubtitle {
+    color: #5b6987;
+    font-size: 20px;
+    padding-top: 8px;
+    font-weight: lighter;
+}
+
+.cardtitle {
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.cardsubtitle {
+    color: #5b6987;
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: 300;
+}
 
 /* stilizzazione navbar */
+
+.nav-cont {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 9999;
+}
 
 .nav-container {
     position: relative;
@@ -33,8 +65,6 @@ body {
 
 .nav li a:hover {
     color: #006aff;
-    background-color: inherit;
-    box-shadow: white;
 }
 
 .navbar-right button {
@@ -170,7 +200,6 @@ body {
 
 .business-cont {
     background-color: #F3F5F9;
-    color: white;
     text-align: center;
     padding: 60px 0 60px 0;
 }
@@ -192,4 +221,39 @@ body {
 .link-blue:hover {
     color: #1633ff;
     text-decoration: none;
+}
+
+/* stilizzazione deploy */
+
+.deploy-cont {
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+
+.card-small {
+    text-align: left;
+    padding: 0 10px 20px 0;
+}
+
+.coldescription {
+    margin-bottom: 50px;
+}
+
+.colmenu ul li {
+    list-style-type: none;
+    text-align: left;
+    line-height: 45px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.colmenu ul li:not(.activemenu) {
+    border-left: 2px solid #dfe2e9;
+    font-weight: 400;
+    color: rgba(3, 27, 78, 0.6);
+}
+
+.activemenu {
+    border-left: 2px solid #006aff;
+    font-weight: 500;
 }
