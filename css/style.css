@@ -323,6 +323,52 @@ body {
     color: #006aff;
 }
 
+.airp {
+    border-bottom: 1px solid hsla(0,0%,100%,0.2);
+    padding: 7px 0;
+}
+
+.aircode,
+.airport,
+.speedtest {
+    float: left;
+}
+
+.aircode {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.airport {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 50%;
+    position: absolute;
+    left: 100px;
+}
+
+.speedtest {
+    float: right;
+}
+
+.speedtest a {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #00d7d2;
+}
+
+.speedtest a:hover {
+    color: #0069ff;
+    text-decoration: none;
+}
+
+.speedtest a i {
+    margin-left: 3px;
+    font-size: 10px;
+}
+
 /* stilizzazione development */
 
 .development {
@@ -493,5 +539,11 @@ body {
     .socialnet {
         text-align: center;
         padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .special {
+        border-bottom: 0;
     }
 }
